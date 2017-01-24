@@ -29,5 +29,89 @@ public static void main(String[] args) {
 		JOptionPane.showMessageDialog(null,nums+ " is the secound smallest number");
 		JOptionPane.showMessageDialog(null,num+ " is the largest number");
 	}
+	if (num<numer&&numer<nums) {
+		JOptionPane.showMessageDialog(null,num+ " is the smallest number");
+		JOptionPane.showMessageDialog(null,nums+ " is the secound smallest number");
+		JOptionPane.showMessageDialog(null,numer+ " is the largest number");
+	}
+	
+	if (nums<numer&&num<numer) {
+		JOptionPane.showMessageDialog(null,nums+ " is the smallest number");
+		JOptionPane.showMessageDialog(null,num+ " is the secound smallest number");
+		JOptionPane.showMessageDialog(null,numer+ " is the largest number");
+	}	
+	
+	if (numer<numer&&nums<num) {
+		JOptionPane.showMessageDialog(null,numer+ " is the smallest number");
+		JOptionPane.showMessageDialog(null,nums+ " is the secound smallest number");
+		JOptionPane.showMessageDialog(null,num+ " is the largest number");
+	}
+	if (num<nums&&nums<numer) {
+		JOptionPane.showMessageDialog(null,num+ " is the smallest number");
+		JOptionPane.showMessageDialog(null,nums+ " is the secound smallest number");
+		JOptionPane.showMessageDialog(null,numer+ " is the largest number");
+	}
+	
+	if (nums<num&&num<numer) {
+		JOptionPane.showMessageDialog(null,nums+ " is the smallest number");
+		JOptionPane.showMessageDialog(null,num+ " is the secound smallest number");
+		JOptionPane.showMessageDialog(null,numer+ " is the largest number");
+	}	
+	
+	if (numer<num&&num<nums) {
+		JOptionPane.showMessageDialog(null,numer+ " is the smallest number");
+		JOptionPane.showMessageDialog(null,nums+ " is the secound smallest number");
+		JOptionPane.showMessageDialog(null,num+ " is the largest number");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }	
+
 }
